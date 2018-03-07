@@ -5,7 +5,7 @@ def fizzbuzz(number)
     return "Buzz"
   elseif number % 5 == 0 && number % 3 ==0
     return "FizzBuzz"
+  else
+    return nil
   end
-  # else
-  #   return nil
-  # end
+end
