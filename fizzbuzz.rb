@@ -1,9 +1,9 @@
 def fizzbuzz(number)
   if number % 3 == 0
-    return "Fizz"
+    puts "Fizz"
   elseif number % 5 == 0
-    return "Buzz"
+    puts "Buzz"
   elseif number % 5 == 0 %% number % 3 ==0
-    return "FizzBuzz"
+    puts "FizzBuzz"
 
   end
